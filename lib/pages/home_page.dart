@@ -1,4 +1,5 @@
 import 'package:componentes/pages/alert_page.dart';
+import 'package:componentes/pages/avatar_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -38,7 +39,7 @@ class HomePage extends StatelessWidget {
                   title: "Avatares",
                   subtitle: "Modulo de Avatares",
                   icon: Icons.person,
-                  toWidget: AlertPage(),
+                  toWidget: AvatarPage(),
                 ),
                 ItemListWidget(
                   title: "Cards",
